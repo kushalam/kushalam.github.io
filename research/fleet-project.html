@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Kushal's webpage" content="">
+    <meta name="Kushal Moolchandani" content="">
+    <link rel="icon" href="images/favicon.png">
+
+    <title>Kushal Moolchandani - Research</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+  </head>
+
+  <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 20px">
+      <div class="container">
+        <a class="navbar-brand" href="#">Kushal Moolchandani</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../research.html">Research <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../publications.html">Publications</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>-->
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown07">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>-->
+          </ul>
+          <!--<form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>-->
+        </div>
+      </div>
+    </nav>
+      
+    <div class="container">
+          
+    <hr>
+    
+  <div class="row">
+    <div class="col-md-12">
+        <h3>Systems-of-Systems Approach for Assessing Technologies in NextGen</h3>
+      </div>
+  </div>
+          
+    <div class="row">
+        <div class="col-md-12">
+            <p style="text-align: justify">The Fleet-Level Environmental Evaluation Tool (FLEET) is a computational simulation tool developed at Purdue to assess aviation's contribution to environmental emissions and noise under several different scenarios. These scenarios include different market conditions, policy implementation, and availability of novel aircraft concepts and technologies. At the heart of FLEET is an aircraft allocation model that represents the airlines’ profit-seeking operational decisions. Around the allocation model is a system dynamics inspired approach that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth.</p>
+        </div>
+        
+                <div class="col-md-12" style="text-align: center">
+                    <figure>
+                        <img src="../images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
+                    <figcaption>System-dynamics model of FLEET</figcaption>
+                    </figure>    
+              </div>
+            <div class="col-md-12">
+                
+                <p style="text-align: justify">Since the real US air transportation network is large and complex, FLEET makes several simplifying assumptions to make the problem tractable. A summary of the key assumptions is given in the figure below.</p>
+                
+            
+              </div>
+            
+            <div class="col-md-12" style="text-align: center">
+                    <figure>
+                        <img src="../images/fleet_simplifications.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
+                    <figcaption>Abstractions employed in FLEET</figcaption>
+                    </figure>    
+                
+                <p style="text-align: justify">FLEET simulations by default begin in 2005 and run upto 2050, with an average day representing each year of simulation. Several parameters can be modified to specify the scenario, including:</p>
+                
+                <ol style="text-align: left">
+                    <li>Economic <u>(GDP)</u> growth rate which affects demand change</li>
+                    <li><u>Fuel price</u> evolution which affects the airlines' DOC</li>
+                    <li>Aircraft <u>entry-in-service</u> dates for new technology availability</li>
+                </ol>
+                
+                <p style="text-align: justify">Standard results from FLEET include evolution of emissions of CO2, NOx, and noise, and growth in fleet sizes and their yearly allocation.</p>
+                
+                <p style="text-align: justify">Following figures show examples of results obtained from simulations. These figures show how the normalized demand and CO2 values change for three different scenarios simulated in FLEET. Scenario one, "Ongoing fleet renewal," is the case where no new technology aircraft are introduced and the retired aircraft are replaced by newer aircraft with the same technology level. Scenario two, "Advanced tube-and-wing," is the case of new technology aircraft being introduced, but ones which are still of the conventional tube-and-wing configuration. Finally, scenario three, "Low carbon fuels," is the case where biofuels are introduced. For details on the modeling and numerical results, refer <a href="../publications.html">Moolchandani et al., 2016</a>.</p>
+                
+                <figure>
+                    <img src="../images/demand.png" class="img-fluid" alt="Responsive image" style="width: 45%; float: left">
+                    <img src="../images/co2.png" class="img-fluid" alt="Responsive image" style="width: 45%">
+                    <figcaption>Normalized demand (left) and CO2 (right) evolution</figcaption>
+                </figure>    
+            </div>
+        </div>
+        
+          <hr>
+          
+          <footer class="footer" style="text-align: center">
+        <p>&copy; Kushal Moolchandani | <a href="https://www.linkedin.com/in/kushalmoolchandani">LinkedIn</a>.</p>
+      </footer>
+          
+      </div>
+      
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../assets/js/vendor/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
