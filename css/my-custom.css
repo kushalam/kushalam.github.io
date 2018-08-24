@@ -58,3 +58,7 @@ p {
     font-family: 'Lora', serif;;
     line-height: 1.5;
 }
+
+li.pubs {
+    margin: 10px 0px;
+}
