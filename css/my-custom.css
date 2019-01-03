@@ -17,14 +17,14 @@ body {
 }
 
 a {
-  color: #E55F3F;/*#D9230F;*/
+  color: #B22222;/*#D9230F;*/
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #BC3919;
+  color: #A21F1F;
   text-decoration: underline;
 }
 
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
   font-family: 'Halant', serif;
-    color: #1E2B45;
+    color: #262626;/*#1E2B45;*/
 }
 
 p {
