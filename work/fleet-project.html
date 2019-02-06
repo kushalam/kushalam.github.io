@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="Kushal's webpage" content="">
-        <meta name="Kushal Moolchandani - Reseach" content="">
+        <meta name="Kushal Moolchandani - FLEET project" content="">
         <link rel="icon" href="images/favicon.png">
 
         <title>Kushal Moolchandani - Home</title>
@@ -19,11 +19,10 @@
 
     <body>
         
-        <div class="container">
+        <div class="container col-md-8">
             
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-                <div class="container">
-                    
+            <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
+                <div class="container site-heading-upper">
                     <a class="navbar-brand" href="../index.html">Kushal Moolchandani</a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,12 +34,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="../index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="../research.html">Research</a>
-                                <span class="sr-only">(current)</span>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../projects.html">Projects</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../work.html">Work
+                                    <span class="sr-only">(current)</span>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../notes.html">Notes</a>
@@ -53,25 +50,23 @@
             <div class="row">
 
                 <!-- Blog Entries Column -->
-                <div class="col-md-8">
+                <div class="col-md-12">
 
-                    <h1 class="my-4">Systems-of-Systems Approach for Assessing Technologies in NextGen
-                    <!--            <small>Secondary Text</small>-->
-                    </h1>
+                    <h1 class="my-4">Systems-of-Systems Approach for Assessing Technologies in NextGen</h1>
 
                     <div class="row mb-2">
                         <div class="col-md-12">
                             <p style="text-align: justify">The Fleet-Level Environmental Evaluation Tool (FLEET) is a computational simulation tool developed at Purdue to assess aviation's contribution to environmental emissions and noise under several different scenarios. These scenarios include different market conditions, policy implementation, and availability of novel aircraft concepts and technologies. At the heart of FLEET is an aircraft allocation model that represents the airlines’ profit-seeking operational decisions. Around the allocation model is a system dynamics inspired approach that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth.</p>
                             
-                            <figure style="text-align: center">
-                                <img src="../images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 90%">
+                            <figure style="text-align: center" class="border">
+                                <img src="../images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 80%">
                                 <figcaption>System-dynamics model of FLEET</figcaption>
                             </figure>
                             
                             <p style="text-align: justify">Since the real US air transportation network is large and complex, FLEET makes several simplifying assumptions to make the problem tractable. A summary of the key assumptions is given in the figure below.</p>
                             
-                            <figure style="text-align: center">
-                                <img src="../images/fleet_simplifications.jpg" class="img-fluid" alt="Responsive image" style="width: 90%">
+                            <figure style="text-align: center" class="border">
+                                <img src="../images/fleet_simplifications.jpg" class="img-fluid" alt="Responsive image" style="width: 80%">
                                 <figcaption>Abstractions employed in FLEET</figcaption>
                             </figure>
                             
@@ -87,46 +82,18 @@
                             
                             <p style="text-align: justify">Following figures show examples of results obtained from simulations. These figures show how the normalized demand and CO<sub>2</sub> values change for three different scenarios simulated in FLEET. Scenario one, "Ongoing fleet renewal," is the case where no new technology aircraft are introduced and the retired aircraft are replaced by newer aircraft with the same technology level. Scenario two, "Advanced tube-and-wing," is the case of new technology aircraft being introduced, but ones which are still of the conventional tube-and-wing configuration. Finally, scenario three, "Low carbon fuels," is the case where biofuels are introduced. For details on the modeling and numerical results, refer <a href="../research.html#publications">Moolchandani et al., 2016</a>.</p>
                             
-                            <figure style="text-align: center">
+                            <figure style="text-align: center" class="border">
                                 <img src="../images/demand.png" class="img-fluid" alt="Responsive image" style="width: 45%; float: left">
                                 <img src="../images/co2.png" class="img-fluid" alt="Responsive image" style="width: 45%">
-                                <figcaption>Normalized demand (left) and CO2 (right) evolution</figcaption>
+                                <figcaption>Normalized demand (left) and CO<sub>2</sub> (right) evolution</figcaption>
                             </figure>   
                             
-                            <p style="background-color: #A9C6D9; color: black; font-family: Halant; padding: 10px;">In summary, in this project we simulated the fleet allocation decisions of airlines in the US to study the environmental impact of aviation in form of CO<sub>2</sub> emissions and noise for different scenarios of market demand growth and policy implementation.</p>
+                            <p style="text-align: justify">In summary, in this project we simulated the fleet allocation decisions of airlines in the US to study the environmental impact of aviation in form of CO<sub>2</sub> emissions and noise for different scenarios of market demand growth and policy implementation.</p>
                         </div>
                     </div>
 
                     
                 </div>
-
-                <!-- Sidebar Widgets Column -->
-                <div class="col-md-4">
-
-                    <!-- Side Widget -->
-                    <div class="card my-4">
-                        
-                        <h5 class="card-header">Research</h5>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                            <li><a href="../research.html">Complex systems design process modeling.</a></li>
-                            <li><a href="../research.html">Decision-making in transportation systems.</a></li>
-                            <li><a href="../research.html">System analysis of aviation networks.</a></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-
-                    <div class="card my-4">
-                        
-                        <h5 class="card-header">Publications</h5>
-                        <div class="card-body">
-                        <a href="../research.html#publications">Publications</a>
-                        </div>
-                        
-                    </div>
-
-                </div><!-- /.widgets -->
 
             </div>
             <!-- /.row -->

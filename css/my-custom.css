@@ -17,14 +17,13 @@ body {
 }
 
 a {
-  color: #B22222;/*#D9230F;*/
+  color: #0F52BA; /*#B22222;/*#D9230F;*/
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #A21F1F;
   text-decoration: underline;
 }
 
@@ -40,6 +39,10 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 
 a:not([href]):not([tabindex]):focus {
   outline: 0;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
 }
 
 footer {
@@ -64,3 +67,38 @@ p {
 li.pubs {
     margin: 10px 0px;
 }
+
+/* Navbar customization */
+/* change the background color */
+.navbar-custom {
+    background-color: #ff5500;
+    border-bottom: 1px solid;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    font-family: 'Halant', serif;
+/*    color: rgba(255,255,255,.8);*/
+    color: #0F52BA;
+    font-weight: bold;
+}
+/* change the link color */
+/*
+.navbar-custom .navbar-nav .nav-link {
+    color: #0F52BA;
+}
+*/
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+/*    color: #0F52BA;*/
+    font-weight: bold;
+}
+/*Override Navbar Light or Dark*/
+/*
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #ffffff;
+}*/

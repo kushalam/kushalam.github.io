@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="Kushal's webpage" content="">
-        <meta name="Kushal Moolchandani" content="">
+        <meta name="Kushal Moolchandani - Work" content="">
         <link rel="icon" href="images/favicon.png">
 
         <title>Kushal Moolchandani - Research</title>
@@ -19,12 +19,11 @@
 
     <body>
         
-        <div class="container">
+        <div class="container col-md-8">
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-                <div class="container">
-                    
-                    <a class="navbar-brand" href="index.html">Kushal Moolchandani</a>
+            <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
+                <div class="container site-heading-upper">
+                    <a class="navbar-brand" href="#">Kushal Moolchandani</a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,12 +34,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Research</a>
-                                <span class="sr-only">(current)</span>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Work
+                                    <span class="sr-only">(current)</span>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="notes.html">Notes</a>
@@ -50,72 +47,55 @@
                 </div>
             </nav>
 
-
             <div class="row">
 
                 <!-- Blog Entries Column -->
-                <div class="col-md-8">
+                <div class="col-md-12">
 
-                    <h1 class="my-4">Research:
-                                <small>My work during graduate school.</small>
-                    </h1>
-
+                    <h3 class="my-4">Following are my past research topics</h3>
+                    
                     <div class="row mb-2">
                         <div class="col-md-12">
-                            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                            <div class="card flex-md-column mb-4 shadow-sm h-md-250">
+                                <h3 class="card-header">Complex Systems Design</h3>
                                 <div class="card-body d-flex flex-column align-items-start">
-                                    <!--              <strong class="d-inline-block mb-2 text-primary">World</strong>-->
-                                    <h3 class="mb-0">
-                                        Modeling and Analysis of Complex Systems Design Process
-                                    </h3>
-                                    <!--              <div class="mb-1 text-muted">Nov 12</div>-->
-                                    <p class="card-text mb-auto">This project studies the engineering design process for complex systems and presents an approach for its modeling and analysis. Though many studies on design processes exist, there is still a need to further incorporate considerations of the social, cultural, and political aspects during process design. Proposed modeling in this work models design teams as learning agents who adapt their behavior based on changing information.</p>
-                                    <!--              <a href="#">Continue reading</a>-->
+                                    <h4 class="card-title"><a href="work/complex-systems-design-phd.html">Modeling and Analysis of Complex Systems Design Processes</a></h4>
+                                    <p>I studied how multiple autonomous teams with local objectives can coordinate to design and develop complex systems. I set up models of teams as agents and used dynamic programming approaches together with decision theory and value-based design approach to model the teams' local decision making. I also setup models of interaction across levels of system hierarchy.</p>
+                                    <h4 class="card-title">Modeling Failures witin Complex Networked Systems</h4>
+                                    <p>In another project, a model-based systems engineering (MBSE) approach for analysis of failures within and performance of complex networked systems. I simulated scenarios of stochastic node failure and repair to assess network robustness and resiliency metrics.</p>
                                 </div>
-                                <!--            <img class="card-img-right flex-auto d-none d-lg-block img-fluid" src="images/phd_problem_flowchart2.png" alt="Card image cap">-->
                             </div>
                         </div>
                     </div>
 
                     <div class="row mb-2">
                         <div class="col-md-12">
-                            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                            <div class="card flex-md-column mb-4 shadow-sm h-md-250">
+                                <h3 class="card-header">Air Transportation Systems Analysis</h3>
                                 <div class="card-body d-flex flex-column align-items-start">
-                                    <!--              <strong class="d-inline-block mb-2 text-primary">World</strong>-->
-                                    <h3 class="mb-0">
-                                        Decision-centric Foundations for Modeling Complex Evolutionary Networks
-                                    </h3>
-                                    <!--              <div class="mb-1 text-muted">Nov 12</div>-->
-                                    <p class="card-text mb-auto">In this project, we developed a random utility based discrete choice analysis method to model the evolution of complex endogenous networks as a result of the decision-making of its constituent autonomous nodes. The goal was to study how the decisions and interactions of these nodes affects network structure and ultimately its performance. We demonstrated the application of the framework to airlines' decision-making on route-selection problems as well as the evolution of the Internet network.</p>
-                                    <a href="research/nsf-nets-project.html">See more &rarr;</a>
-                                    <!--              <a href="#">Continue reading</a>-->
+                                    <h4 class="card-title"><a href="work/nsf-nets-project.html">Air Transportation Networks Analysis using Data Analytics and Optimization Approaches</a></h4>
+                                    <p>Decision-centric Foundations for Modeling Complex Evolutionary Networks. In this project, we developed a random utility based discrete choice analysis method to model the evolution of complex endogenous networks as a result of the decision-making of its constituent autonomous nodes. The goal was to study how the decisions and interactions of these nodes affects network structure and ultimately its performance. We demonstrated the application of the framework to airlines' decision-making on route-selection problems as well as the evolution of the Internet network.</p>
+                                    <h4 class="card-title"><a href="work/fleet-project.html">Fleet-level Environmental Evaluation Tool (FLEET)</a></h4>
+                                    <p>In this project, we developed a Matlab based tool for measuring system-wide environmental impact of aviation. The tool uses a mixed integer programming approach to airline fleet allocation under various technological, economic, and policy scenarios. It includes different modules for aviation market demand growth, airline decisions on aircraft acquisition, and simulation of airline competition, modeled in a system dynamics-type approach.</p>
                                 </div>
                                 <!--            <img class="card-img-right flex-auto d-none d-lg-block img-fluid" src="images/nsf_complex_nets_schematic2.png" alt="Card image cap">-->
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="row mb-2">
                         <div class="col-md-12">
-                            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                            <div class="card flex-md-column mb-4 shadow-sm h-md-250">
+                                <h3 class="card-header">Aircraft Design and Optimization</h3>
                                 <div class="card-body d-flex flex-column align-items-start">
-                                    <!--              <strong class="d-inline-block mb-2 text-primary">World</strong>-->
-                                    <h3 class="mb-0">
-                                        Fleet-level Environmental Evaluation Tool (FLEET)
-                                    </h3>
-                                    <!--              <div class="mb-1 text-muted">Nov 12</div>-->
-                                    <p class="card-text mb-auto">In this project, we developed a Matlab based tool for measuring system-wide environmental impact of aviation. The tool uses a mixed integer programming approach to airline fleet allocation under various technological, economic, and policy scenarios. It includes different modules for aviation market demand growth, airline decisions on aircraft acquisition, and simulation of airline competition, modeled in a system dynamics-type approach.</p>
-                                    <a href="research/fleet-project.html">See more &rarr;</a>
-                                    <!--              <a href="#">Continue reading</a>-->
+                                    <h4 class="card-title"><a href="work/cartad.html">Constraint Analysis of a Transport Aircraft using Optimization</a></h4>
+                                    <p>In the study, I developed a program to carry out the constraint analysis for a transport aircraft computationally. I encoded the relationships between the requirements in a single constraint analysis module. In order to obtain the optimum results, I linked the entire procedure to SIMANN Simulated Annealing optimization algorithm. For optimization, I considered three objective functions, viz., Max. Take Off Weight (MTOW), Total Fuel Weight (TFW), and Direct Operating Cost (DOC).</p>
                                 </div>
-                                <!--            <img class="card-img-right flex-auto d-none d-lg-block img-fluid" src="images/nsf_complex_nets_schematic2.png" alt="Card image cap">-->
                             </div>
                         </div>
                     </div>
 
-                    <h1 class="my-4" id="publications">Publications
-                    <!--            <small>Secondary Text</small>-->
-                    </h1>
+                    <h3 class="my-4" id="publications">List of my publications</h3>
 
                     <div class="row mb-2">
                         <div class="col-md-12">
@@ -170,34 +150,6 @@
 
                 </div><!-- /.blog entries -->
                 
-                <!-- Sidebar Widgets Column -->
-                <div class="col-md-4">
-
-                    <!-- Side Widget -->
-                    <div class="card my-4">
-                        
-                        <h5 class="card-header">Research</h5>
-                        <div class="card-body">
-                            <ul class="list-unstyled">
-                            <li><a href="#">Complex systems design process modeling.</a></li>
-                            <li><a href="#">Decision-making in transportation systems.</a></li>
-                            <li><a href="#">System analysis of aviation networks.</a></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-
-                    <div class="card my-4">
-                        
-                        <h5 class="card-header">Publications</h5>
-                        <div class="card-body">
-                        <a href="#publications">Publications</a>
-                        </div>
-                        
-                    </div>
-
-                </div><!-- /.widgets -->
-
             </div>
             <!-- /.row -->
 
