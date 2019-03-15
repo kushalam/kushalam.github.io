@@ -1,93 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="Kushal's webpage" content="">
-        <meta name="Kushal Moolchandani - Aircraft Design" content="">
-        <link rel="icon" href="images/favicon.png">
+---
+layout: default
+title: Modeling and Analysis of Complex Systems Design Processes
+excerpt: This work discusses how organizations involved in complex systems design can setup process which maximize their value. 
+---
 
-        <title>Kushal Moolchandani - Home</title>
+<div class="row mb-2">
+    <div class="col-md-12">
+        <p style="text-align: justify">In this work, I proposed a framework for modeling an organization as a network of autonomous design agents who collectively work on the design of a complex system. <b>The research objective was to identify a design process policy which best suits an organization, evaluated on the basis of the value that it provides to the organization.</b> Consequently, the research question is, "How does an organization comprised of autonomous design teams select a design process policy which provides the highest value?" The framework models design teams as agents who adapt their behavior using information on design variables available from other teams and the incentives in form of rewards from a system-level designer.</p>
 
-        <!-- Bootstrap core CSS -->
-        <link href="../css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="../css/my-custom.css" rel="stylesheet">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Halant|Open+Sans" rel="stylesheet">
-    </head>
+        <p style="text-align: justify">While extant literature on complex systems design has proposed several models of design processes, there is still a need for models that are versatile enough to represent different types of purposes and scopes of hierarchical levels. Further, models still do not account for the social, cultural, and political aspects of design. Due to the invariably long development times of a complex system, the environment's dynamics such as changing requirements would require all design teams to update their models and decisions during the process. They have to do this while accounting for the decisions of the other teams. The system-level designer, on the other hand, has to ensure that the design teams' decisions are in the best interest of the organization, which is to maximize value. The work proposed in this research addresses these issues by taking a bottom-up approach to modeling this complex, dynamic and uncertain design environment, where organizational-level outcomes are modeled as a result of decisions of individual teams who respond to local incentives.</p>
 
-    <body>
-        
-        <div class="container col-md-8">
-            
-            <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-                <div class="container site-heading-upper">
-                    <a class="navbar-brand" href="../index.html">Kushal Moolchandani</a>
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../work.html">Work
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../notes.html">Notes</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            
-            <div class="row">
+        <p style="text-align: justify">The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. The proposed modeling is versatile to represent human behaviors such as their adding of margins to design variables during the process of information exchange. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization's value.</p>
 
-                <!-- Blog Entries Column -->
-                <div class="col-md-12">
+        <p style="text-align: justify">I demonstrated the framework using a series of increasingly complex design cases using a synthetic optimization problem. Following this, an aircraft design problem serves as a demonstration of application of this framework. The results obtained from both the synthetic and the demonstration problem then inform the discussion of various characteristics of a complex systems design process.</p>
 
-                    <h1 class="my-4">Modeling and Analysis of Complex Systems Design Processes</h1>
-
-                    <div class="row mb-2">
-                        <div class="col-md-12">
-                            <p style="text-align: justify">Working on updates ...</p>
-                            
-                            <!--<figure style="text-align: center">
-                                <img src="../images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 90%">
-                                <figcaption>System-dynamics model of FLEET</figcaption>
-                            </figure>-->
-                            
-                        </div>
-                    </div>
-
-                    
-                </div>
-
-            </div>
-            <!-- /.row -->
-            
-            <hr>
-
-            <footer style="text-align: center">
-                &copy; Kushal Moolchandani | <a href="https://www.linkedin.com/in/kushalmoolchandani">LinkedIn</a> | <a href="https://github.com/kushalam">Github</a>
-            </footer>
-
-        </div>
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../assets/js/vendor/popper.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
-    </body>
-</html>
+    </div>
+</div>

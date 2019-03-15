@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-15T11:09:27-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Selected Papers on Optimization, Design, and Control Systems</title><link href="http://localhost:4000/2019/03/14/best-reads.html" rel="alternate" type="text/html" title="Selected Papers on Optimization, Design, and Control Systems" /><published>2019-03-14T00:00:00-04:00</published><updated>2019-03-14T00:00:00-04:00</updated><id>http://localhost:4000/2019/03/14/best-reads</id><content type="html" xml:base="http://localhost:4000/2019/03/14/best-reads.html">&lt;h3 class=&quot;mt-4&quot;&gt;An assortment of some excellent papers I have read over the years&lt;/h3&gt;
+
+&lt;p&gt;Updated: March 2018&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;!-- Using Chicago style --&gt;
+&lt;h4&gt;&lt;u&gt;On Dynamics and Control&lt;/u&gt;&lt;/h4&gt;
+&lt;p&gt;&amp;#8226; Ljung, Lennart. “Perspectives on System Identification.” Annual Reviews in Control 34, no. 1 (April 2010): 1–12. https://doi.org/10.1016/j.arcontrol.2009.12.001.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Neculai, Andrei. “Modern Control Theory. A Historical Perspective.” Romania: Research Institute for Informatics, 2005.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Vamvoudakis, Kyriakos G., Panos J. Antsaklis, Warren E. Dixon, Joao P. Hespanha, Frank L. Lewis, Hamidreza Modares, and Bahare Kiumarsi. “Autonomy and Machine Intelligence in Complex Systems: A Tutorial.” In 2015 American Control Conference (ACC), 5062–79. Chicago, IL, USA: IEEE, 2015. https://doi.org/10.1109/ACC.2015.7172127.&lt;/p&gt;
+
+&lt;h4&gt;&lt;u&gt;On Math and Optimization&lt;/u&gt;&lt;/h4&gt;
+&lt;p&gt;&amp;#8226; Jones, Donald R. “A Taxonomy of Global Optimization Methods Based on Response Surfaces.” Journal of Global Optimization 21, no. 4 (December 2001): 345–83. https://doi.org/10.1023/A:1012771025575.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Martins, Joaquim R. R. A., and Andrew B. Lambe. “Multidisciplinary Design Optimization: A Survey of Architectures.” AIAA Journal 51, no. 9 (September 2013): 2049–75. https://doi.org/10.2514/1.J051895.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Powell, Warren B. “What You Should Know about Approximate Dynamic Programming.” Naval Research Logistics 56, no. 3 (April 2009): 239–49. https://doi.org/10.1002/nav.20347.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Powell, Warren B. &quot;A unified framework for stochastic optimization.&quot; European Journal of Operational Research, Volume 275, Issue 3, (June 2019): 795-821.&lt;/p&gt;
+&lt;p&gt;&amp;#8226; Viana, Felipe A. C., Timothy W. Simpson, Vladimir Balabanov, and Vasilli Toropov. “Special Section on Multidisciplinary Design Optimization: Metamodeling in Multidisciplinary Design Optimization: How Far Have We Really Come?” AIAA Journal 52, no. 4 (April 2014): 670–90. https://doi.org/10.2514/1.J052375.&lt;/p&gt;
+&lt;hr&gt;</content><author><name></name></author><summary type="html">An assortment of some excellent papers I have read over the years.</summary></entry><entry><title type="html">List of books I have read</title><link href="http://localhost:4000/2019/03/04/books-i-have-read.html" rel="alternate" type="text/html" title="List of books I have read" /><published>2019-03-04T00:00:00-05:00</published><updated>2019-03-04T00:00:00-05:00</updated><id>http://localhost:4000/2019/03/04/books-i-have-read</id><content type="html" xml:base="http://localhost:4000/2019/03/04/books-i-have-read.html">&lt;h2 class=&quot;mt-4&quot;&gt;Books I have read over the years&lt;/h2&gt;
+
+&lt;p&gt;Updated: December 2018&lt;/p&gt;
+
+&lt;p&gt;I started keeping track of all books I have read since 2015. This is the entire list, in reverse chronological order.&lt;/p&gt;
+
+&lt;h4&gt;&lt;u&gt;2018&lt;/u&gt;&lt;/h4&gt;
+&lt;ul class=&quot;list-styled&quot;&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Aaronson, Scott. &lt;em style=&quot;color: #006494&quot;&gt;Quantum computing since Democritus.&lt;/em&gt; Cambridge University Press, 2013.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The Shepherd's Crown.&lt;/em&gt; (Discworld #41, Tiffany Aching #5) Doubleday, 2015.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Vonnegut, Kurt. &lt;em style=&quot;color: #006494&quot;&gt;Cat's Cradle.&lt;/em&gt; Dial Press, 1998.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;I Shall Wear Midnight.&lt;/em&gt; (Discworld #38, Tiffany Aching #4) Doubleday, 2010.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Merlin, Peter W. &lt;em style=&quot;color: #006494&quot;&gt;From Archangel to Senior Crown: Design and Development of the Blackbird.&lt;/em&gt; American Institute of Aeronautics &amp; Astronautics, 2008.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Bercovici, Jeff. &lt;em style=&quot;color: #006494&quot;&gt;Play on: The New Science of Elite Performance at Any Age.&lt;/em&gt; Penguin Books, 2018. &lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;Wintersmith.&lt;/em&gt; (Discworld #35, Tiffany Aching #3) Doubleday, 2006.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Harari, Yuval Noah. &lt;em style=&quot;color: #006494&quot;&gt;Sapiens: A brief history of humankind.&lt;/em&gt; Random House, 2014.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;A Hat Full of Sky.&lt;/em&gt; (Discworld #32, Tiffany Aching #2) Doubleday, 2004.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Clancy, Tom. &lt;em style=&quot;color: #006494&quot;&gt;The hunt for red October.&lt;/em&gt; Penguin, 1985.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The Wee Free Men.&lt;/em&gt; (Discworld #30, Tiffany Aching #1) Doubleday, 2003.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Harari, Yuval Noah. &lt;em style=&quot;color: #006494&quot;&gt;Homo Deus: A brief history of tomorrow.&lt;/em&gt; Random House, 2016.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Munroe, Randall. &lt;em style=&quot;color: #006494&quot;&gt;What If?: Serious Scientific Answers to Absurd Hypothetical Questions.&lt;/em&gt; Hachette UK, 2014.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The Amazing Maurice and His Educated Rodents.&lt;/em&gt; (Discworld #28) Doubleday, 2001.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;u&gt;2017&lt;/u&gt;&lt;/h4&gt;
+&lt;ul class=&quot;list-styled&quot;&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;Unseen Academicals.&lt;/em&gt; (Discworld #37, Rincewind #8) Doubleday, 2009.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The last hero.&lt;/em&gt; (Discworld #27, Rincewind #7) Victor Gollancz, 2001.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Wells, Herbert George. &lt;em style=&quot;color: #006494&quot;&gt;The First Men in the Moon.&lt;/em&gt; Magnum, 1968.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The last continent.&lt;/em&gt; (Discworld #22, Rincewind #6) Doubleday, 1998.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;Interesting times.&lt;/em&gt; (Discworld #17, Rincewind #5) Victor Gollancz, 1994.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry, and Josh Kirby. &lt;em style=&quot;color: #006494&quot;&gt;Eric.&lt;/em&gt; (Discworld #9, Rincewind #4) Corgy, 1990.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Schwab, Klaus. &lt;em style=&quot;color: #006494&quot;&gt;The fourth industrial revolution.&lt;/em&gt; Crown Business, 2017.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;Sourcery.&lt;/em&gt; (Discworld #5, Rincewind #3) Colin Smythe, 1988.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The Light Fantastic.&lt;/em&gt; (Discworld #2, Rincewind #2) Colin Smythe, 1986.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry. &lt;em style=&quot;color: #006494&quot;&gt;The colour of magic.&lt;/em&gt; (Discworld #1, Rincewind #1) Colin Smythe, 1983.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Gaiman, Neil. &lt;em style=&quot;color: #006494&quot;&gt;Norse mythology.&lt;/em&gt; WW Norton &amp; Company, 2017.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Clark, John Drury. &lt;em style=&quot;color: #006494&quot;&gt;Ignition!: An informal history of liquid rocket propellants.&lt;/em&gt; Rutgers University Press, 1972.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Christie, Agatha. &lt;em style=&quot;color: #006494&quot;&gt;And then there were none.&lt;/em&gt; Macmillan, 2004.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Nordgren, Tyler. &lt;em style=&quot;color: #006494&quot;&gt;Sun Moon Earth: The History of Solar Eclipses from Omens of Doom to Einstein and Exoplanets.&lt;/em&gt; Basic Books, 2016.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Loftis, Larry. &lt;em style=&quot;color: #006494&quot;&gt;Into the Lion's Mouth: The True Story of Dusko Popov: World War II Spy, Patriot, and the Real-Life Inspiration for James Bond.&lt;/em&gt; Penguin, 2016.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Heller, Joseph. &lt;em style=&quot;color: #006494&quot;&gt;Catch-22: a novel.&lt;/em&gt; Vol. 4. Simon and Schuster, 1999.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;u&gt;2016&lt;/u&gt;&lt;/h4&gt;
+&lt;ul class=&quot;list-styled&quot;&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Rovelli, Carlo. &lt;em style=&quot;color: #006494&quot;&gt;Seven brief lessons on physics.&lt;/em&gt; Riverhead Books (Hardcover), 2016.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Stanley, Thomas J., and William D. Danko. &lt;em style=&quot;color: #006494&quot;&gt;The Millionaire Next Door: The Surprising Secrets of America’s Wealthy.&lt;/em&gt; Longstreet Press, 1996.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Eckert, Carolyn. &lt;em style=&quot;color: #006494&quot;&gt;Your idea starts here: 77 mind-expanding ways to unleash your creativity.&lt;/em&gt; Storey Publishing, 2016.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Kiyosaki, Robert T., John Fleming, and Kim Kiyosaki. &lt;em style=&quot;color: #006494&quot;&gt;The Business of the 21st century.&lt;/em&gt; DreamBuilders, 2010.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Johnson, Clarence L. &lt;em style=&quot;color: #006494&quot;&gt;Kelly: more than my share of it all.&lt;/em&gt; Smithsonian Institution, 2012.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Singh, Simon. &lt;em style=&quot;color: #006494&quot;&gt;Big Bang: The origin of the universe.&lt;/em&gt; Harper Perennial, 2004.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Pratchett, Terry, and Neil Gaiman. &lt;em style=&quot;color: #006494&quot;&gt;Good Omens: The nice and accurate prophecies of Agnes Nutter, witch.&lt;/em&gt; Random House, 2011.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Marshall, Tim. &lt;em style=&quot;color: #006494&quot;&gt;Prisoners of geography: Ten maps that tell you everything you need to know about global politics.&lt;/em&gt; Elliot and Thompson, 2015.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Bradbury, Ray. &lt;em style=&quot;color: #006494&quot;&gt;The martian chronicles.&lt;/em&gt; Simon and Schuster, 2012.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Goscinny, Rene, and Albert Uderzo. &lt;em style=&quot;color: #006494&quot;&gt;Asterix the Gladiator.&lt;/em&gt; Asterix #4.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Ferri, Jean-Yves, Didier Conrad and Anthea Bell. &lt;em style=&quot;color: #006494&quot;&gt;Asterix and the Picts.&lt;/em&gt; Asterix #35.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Carroll, Lewis. &lt;em style=&quot;color: #006494&quot;&gt;Alice's adventures in wonderland.&lt;/em&gt; Broadview Press, 2011.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;u&gt;2015&lt;/u&gt;&lt;/h4&gt;
+&lt;ul class=&quot;list-styled&quot;&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Sutter, Joe and Jay Spenser. &lt;em style=&quot;color: #006494&quot;&gt;747: Creating the World's first Jumbo Jet and other adventures from a life in aviation.&lt;/em&gt; HarperCollinsPublishers, 2006.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Gonick, Larry, and Woollcott Smith. &lt;em style=&quot;color: #006494&quot;&gt;The cartoon guide to statistics.&lt;/em&gt; New York: HarperPerennial, 1993.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Anderson Jr., John David. &lt;em style=&quot;color: #006494&quot;&gt;The airplane, a history of its technology.&lt;/em&gt; AIAA, 2002.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Brosh, Alexandra. &lt;em style=&quot;color: #006494&quot;&gt;Hyperbole and a half: Unfortunate situations, flawed coping mechanisms, mayhem, and other things that happened.&lt;/em&gt; Random House, 2013.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Miodownik, Mark. &lt;em style=&quot;color: #006494&quot;&gt;Stuff Matters: Exploring the Marvelous Materials that Shape Our Man-made World.&lt;/em&gt; Houghton Mifflin Harcourt, 2014.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Yeager, Chuck, and Leo Janos. &lt;em style=&quot;color: #006494&quot;&gt;Yeager: An Autobiography.&lt;/em&gt; Toronto: Bantam Books, 1985.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Padua, Sydney. &lt;em style=&quot;color: #006494&quot;&gt;The Thrilling Adventures of Lovelace and Babbage: the (mostly) true story of the first computer.&lt;/em&gt; Penguin UK, 2015.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Aurelius, Marcus. &lt;em style=&quot;color: #006494&quot;&gt;Meditations.&lt;/em&gt; Oxford University Press, 2013.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Lansing, Alfred. &lt;em style=&quot;color: #006494&quot;&gt;Endurance: Shackleton's Incredible Voyage.&lt;/em&gt; Basic Books (AZ), 2014.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Poundstone, William. &lt;em style=&quot;color: #006494&quot;&gt;Are You Smart Enough to Work at Google?&lt;/em&gt; Oneworld Publication, 2013.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Gardner, Martin. &lt;em style=&quot;color: #006494&quot;&gt;Hexaflexagons, Probability Paradoxes, and the Tower of Hanoi: Martin Gardner's First Book of Mathematical Puzzles and Games.&lt;/em&gt; Cambridge: Cambridge University Press, 2008.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Hadfield, Chris. &lt;em style=&quot;color: #006494&quot;&gt;An Astronaut's Guide to Life on Earth.&lt;/em&gt; 2013.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Saint-Exupéry, Antoine, and Katherine Woods. &lt;em style=&quot;color: #006494&quot;&gt;The Little Prince.&lt;/em&gt; New York: Harcourt, Brace &amp; World, 1943.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Navarro, Joe, and Marvin Karlins. &lt;em style=&quot;color: #006494&quot;&gt;What Every Body Is Saying: An Ex-Fbi Agent's Guide to Speed Reading People.&lt;/em&gt; New York, NY: Collins, 2008.&lt;/li&gt;
+    &lt;li class=&quot;pubs&quot;&gt;Hawkins, Jeff, and Sandra Blakeslee. &lt;em style=&quot;color: #006494&quot;&gt;On intelligence: How a new understanding of the brain will lead to the creation of truly intelligent machines.&lt;/em&gt; Macmillan, 2007.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I keep track of books that I read; this is the list of all of them.</summary></entry></feed>

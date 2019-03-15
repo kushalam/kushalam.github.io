@@ -1,135 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Notes
+---
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="Kushal's webpage" content="">
-        <meta name="Kushal Moolchandani" content="">
-        <link rel="icon" href="images/favicon.png">
-
-    <title>Kushal Moolchandani - Notes</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/my-custom.css" rel="stylesheet">
-      <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Halant|Open+Sans" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    
-    <!-- Page Content -->
-    <div class="container col-md-8">
-        
-    <!-- Navigation -->
-        <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-                <div class="container site-heading-upper">
-                    <a class="navbar-brand" href="#">Kushal Moolchandani</a>
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="work.html">Work</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Notes
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        
+<section id="posts" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <hr>
+        {% for post in site.posts %}
+          <div>
+              <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 <!--
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-                <div class="container">
-                    
-                    <a class="navbar-brand" href="index.html">Kushal Moolchandani</a>
-                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="research.html">Research</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Notes</a>
-                                <span class="sr-only">(current)</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <p class="text-info lead">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </p>
 -->
 
-      <div class="row">
-        
-        <!-- Blog Entries Column -->
-        <div class="col-md-12">
-            
-            <h3 class="my-4">My notes on selected topics of interest</h3>
-            
-            <hr>
-            
-            <!-- Blog Post -->
-            
-            <h4><a href="./notes/best-reads.html">Selected research papers worth reading</a></h4>
-            <p>These are a few of the best research papers that I have read, categorized by topics.</p>
-            
-            <hr>
-            
-            <h4><a href="./notes/books-i-have-read.html">Books I have read</a></h4>
-            <p>I keep track of books that I read; this is the list.</p>
-          
-        </div>
-          
-         
-
+            <p>
+              {% if post.summary %}
+                {{ post.summary }}
+              {% else %}
+                {{ post.excerpt }}
+              {% endif %}
+            </p>
+              <hr>
+          </div>
+        {% endfor %}
       </div>
-      <!-- /.row -->
-
-        <hr>
-      
-    <!-- Footer -->
-    <footer style="text-align: center">
-                &copy; Kushal Moolchandani | <a href="https://www.linkedin.com/in/kushalmoolchandani">LinkedIn</a> | <a href="https://github.com/kushalam">Github</a>
-            </footer>
-        
     </div>
-    <!-- /.container -->
+  </div>
+</section>
 
-    
-<!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-
-</html>

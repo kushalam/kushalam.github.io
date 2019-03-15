@@ -1,0 +1,38 @@
+---
+layout: default
+title: Decision-centric Foundations for Modeling Complex Evolutionary Networks
+excerpt: A discussion of a tool developed for analysis of airline allocation decisions.
+---
+
+<div class="row mb-2">
+    <div class="col-md-12">
+        <p style="text-align: justify">The objective of this project was to study the evolutionary dynamics of complex endogenous in terms of node-level decisions. We utilized the random-utility discrete choice theory under the hypothesis that based on rational utility maximizing behavior of nodes, this theory can be used to effectively model the observed evolutionary characteristics of the complex networks. The following is a study done in this project of the airlines' decision-making on route addition and deletion in response to changing demand and competition. Currently ongoing work will extend the decision-making model to two levels of hierarchy, with the second layer that of passengers' decision-making.</p>
+        <p style="text-align: justify"><b>Research Question</b>: <i>How can airlines’ preference structure for service network evolution be derived from available air transportation network data?</i></p>
+        <p style="text-align: justify"><b>Approach</b>: We demonstrated a discrete choice random utility model to discover key factors in airline decisions on route planning. The model uses four criteria for airline decision: (for each route) market demand, direct operating cost, distance, and hub/non-hub nature of airports.</p>
+        <p style="text-align: justify">Our approach, given the following figure, comprised of four steps: (1) identify decision criteria from a literature review, (2) gather and tidy data, (3) estimate parameters of model with discrete choice analysis, and (4) validate results using available historical data.</p>
+
+        <figure style="text-align: center" class="border">
+            <img src="{{ site.baseurl }}/assets/images/dca_flow.jpg" class="img-fluid" alt="Responsive image" style="width: 50%">
+            <figcaption>Proposed approach to estimate airlines’ preferences on route selection</figcaption>
+        </figure>    
+
+
+        <p style="text-align: justify">The modeled preference structure is shown in the following figure.</p>
+
+        <figure style="text-align: center" class="border">
+            <img src="{{ site.baseurl }}/assets/images/preference_structure.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
+            <figcaption>Proposed approach to estimate airlines’ preferences on route selection</figcaption>
+        </figure>
+
+        <p>Thus, we presented an approach based on the discrete choice random-utility theory is presented to model airlines' decisions of
+        strategically adding or deleting city-pair routes. This approach benefits those who want to understand airlines' decision-making behaviors and those who need to understand the past and future evolution of an air transportation network. For details on the modeling and numerical results, refer <a href="{{ site.baseurl }}/publications.html">Sha et al., 2016</a>.</p>
+        <p style="text-align: justify"><b>Key conclusions</b>:</p>
+        <ol style="text-align: left">
+            <li>Market demand is a significant decision factor for both route addition and deletion</li>
+            <li>Impact of the market demand varies, depending on whether a route connects hub or nonhub airports</li>
+            <li>Market demand has greater impact on the decision of route deletion as compared with the route addition</li>
+            <li>Direct operating cost is significant in the model of route deletion but not in the case of route addition</li>
+        </ol>
+
+    </div>
+</div>
