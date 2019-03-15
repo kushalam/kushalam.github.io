@@ -1,22 +1,104 @@
----
-layout: default
-title: Fleet-level Environmental Evaluation Tool
-excerpt: A discussion of a tool developed for analysis of airline allocation decisions.
----
+<!doctype html>
+<html>
+    
+    <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<div class="row mb-2">
+    <title>Fleet-level Environmental Evaluation Tool</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Halant|Open+Sans" rel="stylesheet">
+
+</head>
+  
+    <body>
+        
+        <div class="wrapper">
+            
+            <!-- Sidebar  -->
+            
+
+
+    
+        
+    
+
+
+    
+
+
+    
+
+
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3 style="color: white;"><a href="">Kushal Moolchandani</a></h3>
+    </div>
+    <ul class="list-unstyled components">
+    
+        
+        
+        
+        <li class="active"><a href="/">Home</a></li>
+        
+    
+        
+        
+        
+        <li>
+            <a href="/work.html">Work</a>
+            <ul class="list-unstyled">
+                
+                <li><a href="/work/nsf-complex-nets-project.html">Airline Network Analysis</a></li>
+                
+                <li><a href="/work/fleet-project.html">Fleet Allocation Tool</a></li>
+                
+            </ul>
+        </li>
+        
+    
+        
+        
+        
+        <li><a href="/notes.html">Notes</a></li>
+        
+    
+    </ul>
+</nav>
+            
+            <!-- Page Content  -->
+            <div id="content">
+                <div class="menu-header">
+                    <button type="button" id="sidebarCollapse" class="btn menu-btn">
+                        <img src="/assets/images/nav.png" alt="Menu">
+                    </button>
+                    <span class="menu-text">Fleet-level Environmental Evaluation Tool</span>
+                </div>
+        
+                <div class="row" style="margin: 5em">
+                    <div class="col-md-12">
+                        <div class="row mb-2">
     <div class="col-md-12">
         <p style="text-align: justify">The Fleet-Level Environmental Evaluation Tool (FLEET) is a computational simulation tool developed at Purdue to assess aviation's contribution to environmental emissions and noise under several different scenarios. These scenarios include different market conditions, policy implementation, and availability of novel aircraft concepts and technologies. At the heart of FLEET is an aircraft allocation model that represents the airlines’ profit-seeking operational decisions. Around the allocation model is a system dynamics inspired approach that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth.</p>
         
         <figure style="text-align: center" class="border">
-            <img src="{{ site.baseurl }}/assets/images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
+            <img src="/assets/images/fleet_sys_dyn.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
             <figcaption>System-dynamics model of FLEET</figcaption>
         </figure>
 
         <p style="text-align: justify">Since the real US air transportation network is large and complex, FLEET makes several simplifying assumptions to make the problem tractable. A summary of the key assumptions is given in the figure below.</p>
 
         <figure style="text-align: center" class="border">
-            <img src="{{ site.baseurl }}/assets/images/fleet_simplifications.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
+            <img src="/assets/images/fleet_simplifications.jpg" class="img-fluid" alt="Responsive image" style="width: 70%">
             <figcaption>Abstractions employed in FLEET</figcaption>
         </figure>
 
@@ -30,14 +112,46 @@ excerpt: A discussion of a tool developed for analysis of airline allocation dec
 
         <p style="text-align: justify">Standard results from FLEET include evolution of emissions of CO<sub>2</sub>, NO<sub>x</sub>, and noise, and growth in fleet sizes and their yearly allocation.</p>
 
-        <p style="text-align: justify">Following figures show examples of results obtained from simulations. These figures show how the normalized demand and CO<sub>2</sub> values change for three different scenarios simulated in FLEET. Scenario one, "Ongoing fleet renewal," is the case where no new technology aircraft are introduced and the retired aircraft are replaced by newer aircraft with the same technology level. Scenario two, "Advanced tube-and-wing," is the case of new technology aircraft being introduced, but ones which are still of the conventional tube-and-wing configuration. Finally, scenario three, "Low carbon fuels," is the case where biofuels are introduced. For details on the modeling and numerical results, refer <a href="{{ site.baseurl }}/publications.html">Moolchandani et al., 2016</a>.</p>
+        <p style="text-align: justify">Following figures show examples of results obtained from simulations. These figures show how the normalized demand and CO<sub>2</sub> values change for three different scenarios simulated in FLEET. Scenario one, "Ongoing fleet renewal," is the case where no new technology aircraft are introduced and the retired aircraft are replaced by newer aircraft with the same technology level. Scenario two, "Advanced tube-and-wing," is the case of new technology aircraft being introduced, but ones which are still of the conventional tube-and-wing configuration. Finally, scenario three, "Low carbon fuels," is the case where biofuels are introduced. For details on the modeling and numerical results, refer <a href="/publications.html">Moolchandani et al., 2016</a>.</p>
 
         <figure style="text-align: center" class="border">
-            <img src="{{ site.baseurl }}/assets/images/demand.png" class="img-fluid" alt="Responsive image" style="width: 45%; float: left">
-            <img src="{{ site.baseurl }}/assets/images/co2.png" class="img-fluid" alt="Responsive image" style="width: 45%">
+            <img src="/assets/images/demand.png" class="img-fluid" alt="Responsive image" style="width: 45%; float: left">
+            <img src="/assets/images/co2.png" class="img-fluid" alt="Responsive image" style="width: 45%">
             <figcaption>Normalized demand (left) and CO<sub>2</sub> (right) evolution</figcaption>
         </figure>   
 
         <p style="text-align: justify">In summary, in this project we simulated the fleet allocation decisions of airlines in the US to study the environmental impact of aviation in form of CO<sub>2</sub> emissions and noise for different scenarios of market demand growth and policy implementation.</p>
     </div>
 </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar, #content').toggleClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+</script>
+            
+        </div>
+        
+    </body>
+    
+</html>
