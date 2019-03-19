@@ -1,5 +1,5 @@
 body {
-  background: #FBF9F7;
+  background: #F9F6F7;
   font-family: 'Open Sans', sans-serif; }
 
 p {
@@ -7,7 +7,7 @@ p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5em;
-  color: #000; }
+  color: #1D2731; }
 
 h1,
 h2,
@@ -17,10 +17,14 @@ h5,
 h6 {
   font-family: 'Halant', serif; }
 
-a,
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s; }
+
 a:hover,
 a:focus {
-  color: inherit;
+  color: #D9B310;
   text-decoration: none;
   transition: all 0.3s; }
 
@@ -57,7 +61,7 @@ a:focus {
   left: 0;
   height: 100vh;
   z-index: 999;
-  background: #0F52BA;
+  background: #328CC1;
   color: #fff;
   transition: all 0.3s; }
 
@@ -66,7 +70,7 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 18px 20px 5px 20px;
-  background: #171620; }
+  background: #1D2731; }
 
 #sidebar ul.components {
   border-bottom: 1px solid #47748b; }
@@ -82,12 +86,12 @@ a:focus {
 
 #sidebar ul li a:hover {
   color: white;
-  background: #0092D1; }
+  background: #D9B310; }
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #50BCD5; }
+  background: #7cb9dd; }
 
 a[data-toggle="collapse"] {
   position: relative; }
@@ -102,7 +106,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #0F52BA; }
+  background: #328CC1; }
 
 .menu-text {
   color: white;
@@ -113,7 +117,7 @@ ul ul a {
   left: 5px; }
 
 .menu-btn {
-  background: #171620;
+  background: #1D2731;
   margin-top: 10px;
   color: white;
   visibility: hidden; }
@@ -121,7 +125,7 @@ ul ul a {
 .menu-header {
   width: 100%;
   height: 64px;
-  background: #171620; }
+  background: #1D2731; }
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -138,7 +142,10 @@ ul ul a {
   width: 100%; }
 
 #content a {
-  color: #0F52BA; }
+  color: #328CC1; }
+
+#content a:hover, a:focus {
+  color: #D9B310; }
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -157,7 +164,7 @@ ul ul a {
     width: calc(100% - 320px); }
 
   .menu-btn {
-    background: #171620;
+    background: #1D2731;
     margin-top: 10px;
     color: white;
     visibility: visible; } }
