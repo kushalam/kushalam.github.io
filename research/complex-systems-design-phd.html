@@ -46,6 +46,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/index.html#publications">Publications</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/index.html#notes">Notes</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -56,36 +59,28 @@
             <div class="row">
                 <div class="col-md-12" style="margin: 1em">
                     
-                    <div class="row mb-2">
-    <div class="col-md-12">
-        <p>Complex systems design involves interactions among a network of self-interested agents who iteratively exchange design information while working on a subproblem. While there are many studies on modeling design processes, there is still a need to model the social, cultural, and political aspects of design. This is because, design of a system is nested within an organization, and the structure of an organization can influence the architecture of the system it develops. The figure below shows the layer of the product within a layer of its design process within the layer of the organization. The architectures of the product, process, and organization include, respectively, the network of subsystems, the network of tasks, and the network of design teams.</p>
-        
-        <figure style="text-align: center">
-            <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid" alt="Responsive image" style="width: 50%">
-            <figcaption>Product-Process-Organization form a nested set</figcaption>
-        </figure>
-        
-<!--        <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid img-thumbnail float-left" alt="Responsive image" width="50%" style="margin: 2em">-->
-        
-        <p>In this research, I developed a framework to identify a design process policy which best suits an organization, evaluated on the basis of the value that it provides to the organization. The research question was, "How does an organization comprised of autonomous design teams select a design process policy which provides the highest value?" The framework models design teams as agents who adapt their behavior using information on design variables available from other teams and the incentives in form of rewards from a system-level designer.</p>
+                    <h4>Why study complex systems' design processes?</h4>
+<p>Complex systems' design involves interactions among a network of self-interested agents who iteratively exchange design information such as variable values while working on their local subsystem problems. There is a large body of literature on modeling design processes, and yet there exists a need to further study the social, cultural, and political aspects of design. These aspects are relevant because the design process of a system is nested within an organization, and the structure of and information flow within an organization influences the architecture of the system it develops; the following figure shows the layer of the product (system) within a layer of its design process within the layer of the organization. </p>
 
-        <p>The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. The proposed modeling is versatile to represent human behaviors such as their risk taking ability. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization's value.</p>
-        
-        <p>Each team is modeled as an autonomous decision-making agent. Then, the simulation proceeds as shown in the figure below. All agents begin with an initial design, and then, through a series of successive interactions, arrive at a final design selected by the principal. This framework is flexible to allow changes to the agents' behaviors or design requirements during the course of simulation.</p>
-        
-        <figure style="text-align: center">
-            <img src="/assets/images/design-framework-flowchart.png" class="img-fluid" alt="Responsive image" style="width: 50%">
-            <figcaption>Product-Process-Organization form a nested set</figcaption>
-        </figure>
-        
-        <h4>How does the framework help develop a design policy?</h4>
-        <p>I demonstrated the framework using, first, a series of increasingly complex design cases using a synthetic optimization problem, and then, an aircraft design problem. From the results obtained, I discussed how an organization can select both its processes and its communication structure to maximize the value of each of its autonomous design teams. Thus, this work takes a bottom-up approach for modeling a complex, dynamic, and uncertain design environment, where organizational-level outcomes are a result of decisions of individual teams who respond to local incentives.</p>
-        
-<!--        <p>While extant literature on complex systems design has proposed several models of design processes, there is still a need for models that are versatile enough to represent different types of purposes and scopes of hierarchical levels. Due to the invariably long development times of a complex system, the environment's dynamics such as changing requirements would require all design teams to update their models and decisions during the process. They have to do this while accounting for the decisions of the other teams. The system-level designer, on the other hand, has to ensure that the design teams' decisions are in the best interest of the organization, which is to maximize value. The work proposed in this research addresses these issues by taking a bottom-up approach to modeling this complex, dynamic and uncertain design environment, where organizational-level outcomes are modeled as a result of decisions of individual teams who respond to local incentives.</p>-->
-        
-    </div>
-</div>
+<figure style="text-align: center" class="border">
+    <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid" alt="Responsive image" style="width: 50%">
+    <figcaption>Product-Process-Organization form a nested set. The architectures of the product, process, and organization include, respectively, the network of subsystems, the network of tasks, and the network of design teams.</figcaption>
+</figure>
 
+<h4>How do we model design processes?</h4>
+<p>In this research, I modeled the process as a network of self-interested agents who identify a design process policy to maximize their own value obtained by designing their subsystem. These agents are structured in an bi-level hierarchical organization with one system-level designer, the principal, and multiple subsystem teams or agents. Thus, the research question was, <em>"How can an organization comprised of autonomous self-interested design teams select a design process policy which provides the highest system-level value?"</em></p>
+
+<p>The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The process is as follows. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization's value. The framework models design teams as agents who adapt their behavior using information on design variables //available from other teams and the incentives in form of rewards from a system-level designer.</p>
+
+<p>Each team is modeled as an autonomous decision-making agent. Then, the simulation proceeds as shown in the figure below. All agents begin with an initial design, and then, through a series of successive interactions, arrive at a final design selected by the principal. This framework is flexible to allow changes to the agents' behaviors or design requirements during the course of simulation.</p>
+
+<figure style="text-align: center">
+    <img src="/assets/images/design-framework-flowchart.png" class="img-fluid" alt="Responsive image" style="width: 50%">
+    <figcaption>Product-Process-Organization form a nested set</figcaption>
+</figure>
+
+<h4>How does the framework help develop a design policy?</h4>
+<p>I demonstrated the framework using, first, a series of increasingly complex design cases using a synthetic optimization problem, and then, an aircraft design problem. From the results obtained, I discussed how an organization can select both its processes and its communication structure to maximize the value of each of its autonomous design teams. Thus, this work takes a bottom-up approach for modeling a complex, dynamic, and uncertain design environment, where organizational-level outcomes are a result of decisions of individual teams who respond to local incentives.</p>
                     
                 </div>
             </div>
@@ -101,36 +96,28 @@
         
                 <div class="row" style="margin: 5em">
                     <div class="col-md-12">
-                        <div class="row mb-2">
-    <div class="col-md-12">
-        <p>Complex systems design involves interactions among a network of self-interested agents who iteratively exchange design information while working on a subproblem. While there are many studies on modeling design processes, there is still a need to model the social, cultural, and political aspects of design. This is because, design of a system is nested within an organization, and the structure of an organization can influence the architecture of the system it develops. The figure below shows the layer of the product within a layer of its design process within the layer of the organization. The architectures of the product, process, and organization include, respectively, the network of subsystems, the network of tasks, and the network of design teams.</p>
-        
-        <figure style="text-align: center">
-            <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid" alt="Responsive image" style="width: 50%">
-            <figcaption>Product-Process-Organization form a nested set</figcaption>
-        </figure>
-        
-<!--        <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid img-thumbnail float-left" alt="Responsive image" width="50%" style="margin: 2em">-->
-        
-        <p>In this research, I developed a framework to identify a design process policy which best suits an organization, evaluated on the basis of the value that it provides to the organization. The research question was, "How does an organization comprised of autonomous design teams select a design process policy which provides the highest value?" The framework models design teams as agents who adapt their behavior using information on design variables available from other teams and the incentives in form of rewards from a system-level designer.</p>
+                        <h4>Why study complex systems' design processes?</h4>
+<p>Complex systems' design involves interactions among a network of self-interested agents who iteratively exchange design information such as variable values while working on their local subsystem problems. There is a large body of literature on modeling design processes, and yet there exists a need to further study the social, cultural, and political aspects of design. These aspects are relevant because the design process of a system is nested within an organization, and the structure of and information flow within an organization influences the architecture of the system it develops; the following figure shows the layer of the product (system) within a layer of its design process within the layer of the organization. </p>
 
-        <p>The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. The proposed modeling is versatile to represent human behaviors such as their risk taking ability. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization's value.</p>
-        
-        <p>Each team is modeled as an autonomous decision-making agent. Then, the simulation proceeds as shown in the figure below. All agents begin with an initial design, and then, through a series of successive interactions, arrive at a final design selected by the principal. This framework is flexible to allow changes to the agents' behaviors or design requirements during the course of simulation.</p>
-        
-        <figure style="text-align: center">
-            <img src="/assets/images/design-framework-flowchart.png" class="img-fluid" alt="Responsive image" style="width: 50%">
-            <figcaption>Product-Process-Organization form a nested set</figcaption>
-        </figure>
-        
-        <h4>How does the framework help develop a design policy?</h4>
-        <p>I demonstrated the framework using, first, a series of increasingly complex design cases using a synthetic optimization problem, and then, an aircraft design problem. From the results obtained, I discussed how an organization can select both its processes and its communication structure to maximize the value of each of its autonomous design teams. Thus, this work takes a bottom-up approach for modeling a complex, dynamic, and uncertain design environment, where organizational-level outcomes are a result of decisions of individual teams who respond to local incentives.</p>
-        
-<!--        <p>While extant literature on complex systems design has proposed several models of design processes, there is still a need for models that are versatile enough to represent different types of purposes and scopes of hierarchical levels. Due to the invariably long development times of a complex system, the environment's dynamics such as changing requirements would require all design teams to update their models and decisions during the process. They have to do this while accounting for the decisions of the other teams. The system-level designer, on the other hand, has to ensure that the design teams' decisions are in the best interest of the organization, which is to maximize value. The work proposed in this research addresses these issues by taking a bottom-up approach to modeling this complex, dynamic and uncertain design environment, where organizational-level outcomes are modeled as a result of decisions of individual teams who respond to local incentives.</p>-->
-        
-    </div>
-</div>
+<figure style="text-align: center" class="border">
+    <img src="/assets/images/product-process-organization-nesting.png" class="img-fluid" alt="Responsive image" style="width: 50%">
+    <figcaption>Product-Process-Organization form a nested set. The architectures of the product, process, and organization include, respectively, the network of subsystems, the network of tasks, and the network of design teams.</figcaption>
+</figure>
 
+<h4>How do we model design processes?</h4>
+<p>In this research, I modeled the process as a network of self-interested agents who identify a design process policy to maximize their own value obtained by designing their subsystem. These agents are structured in an bi-level hierarchical organization with one system-level designer, the principal, and multiple subsystem teams or agents. Thus, the research question was, <em>"How can an organization comprised of autonomous self-interested design teams select a design process policy which provides the highest system-level value?"</em></p>
+
+<p>The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The process is as follows. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization's value. The framework models design teams as agents who adapt their behavior using information on design variables //available from other teams and the incentives in form of rewards from a system-level designer.</p>
+
+<p>Each team is modeled as an autonomous decision-making agent. Then, the simulation proceeds as shown in the figure below. All agents begin with an initial design, and then, through a series of successive interactions, arrive at a final design selected by the principal. This framework is flexible to allow changes to the agents' behaviors or design requirements during the course of simulation.</p>
+
+<figure style="text-align: center">
+    <img src="/assets/images/design-framework-flowchart.png" class="img-fluid" alt="Responsive image" style="width: 50%">
+    <figcaption>Product-Process-Organization form a nested set</figcaption>
+</figure>
+
+<h4>How does the framework help develop a design policy?</h4>
+<p>I demonstrated the framework using, first, a series of increasingly complex design cases using a synthetic optimization problem, and then, an aircraft design problem. From the results obtained, I discussed how an organization can select both its processes and its communication structure to maximize the value of each of its autonomous design teams. Thus, this work takes a bottom-up approach for modeling a complex, dynamic, and uncertain design environment, where organizational-level outcomes are a result of decisions of individual teams who respond to local incentives.</p>
                     </div>
                 </div>
             </div>
