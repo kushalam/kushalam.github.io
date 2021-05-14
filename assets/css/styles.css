@@ -1,4 +1,4 @@
-body { padding-top: 54px; padding-bottom: 54px; background: #f5f8f8; font-family: 'Open Sans', sans-serif; }
+body { padding-top: 54px; padding-bottom: 54px; background: #f2f6f6; font-family: 'Open Sans', sans-serif; }
 
 a { color: #328CC1; text-decoration: none; transition: all 0.3s; background-color: transparent; -webkit-text-decoration-skip: objects; }
 
@@ -6,9 +6,13 @@ a:hover, a:focus { color: #D9B310; text-decoration: none; transition: all 0.3s; 
 
 .bg-dark { background-color: #0B3C5D !important; }
 
+.btn-outline-primary { color: #328CC1; background-color: transparent; background-image: none; border-color: #328CC1; }
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus { color: #D9B310; background-color: transparent; border-color: #D9B310; }
+
 h1, h2, h3, h4, h5, h6 { font-family: 'Halant', serif; }
 
-li.pubs { margin: 10px 0px; }
+ol.space_list li { margin-bottom: 1em; }
 
 .navbar { background: #0B3C5D !important; border: none; border-radius: 0; margin-bottom: 40px; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
 

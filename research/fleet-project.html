@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <link rel="icon" href="images/favicon.png"> -->
 
-    <title>Research</title>
+    <title>Fleet-level Environmental Evaluation Tool</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -88,21 +88,32 @@
             <div class="row justify-content-center">
                 <div class="col-md-12" style="margin: 1em">
 
-                    <h1 id="research">Research</h1>
+                    <p>The Fleet-Level Environmental Evaluation Tool (FLEET) is a computational simulation tool developed at Purdue to assess aviation’s contribution to environmental emissions and noise under several different scenarios. These scenarios include different market conditions, policy implementation, and availability of novel aircraft concepts and technologies. At the heart of FLEET is an aircraft allocation model that represents the airlines’ profit-seeking operational decisions. Around the allocation model is a system dynamics inspired approach that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth.</p>
 
-<p>This page lists all research projects that I have worked on.</p>
+<p><img src="/assets/images/fleet_sys_dyn.jpg" alt="Fleet System Dynamics" class="img-fluid img-thumbnail mx-auto d-block" width="50%" style="margin: 2em" /></p>
 
-<h3 id="modeling-and-analysis-of-complex-systems-design-processes"><a href="/research/complex-systems-design-phd.html">Modeling and Analysis of Complex Systems Design Processes</a></h3>
+<p>Since the real US air transportation network is large and complex, FLEET makes several simplifying assumptions to make the problem tractable. A summary of the key assumptions is given in the figure below.</p>
 
-<p>I studied how multiple autonomous teams with local objectives can coordinate to design and develop complex systems. I set up models of teams as agents and used dynamic programming approaches together with decision theory and value-based design approach to model the teams’ local decision making. I also setup models of interaction across levels of system hierarchy.</p>
+<p><img src="/assets/images/fleet_simplifications.jpg" alt="Fleet Simplifying Assumptions" class="img-fluid img-thumbnail mx-auto d-block" width="50%" style="margin: 2em" /></p>
 
-<h3 id="modeling-of-airline-network-structure-decisions"><a href="/research/nsf-complex-nets-project.html">Modeling of Airline Network Structure Decisions</a></h3>
+<p>FLEET simulations by default begin in 2005 and run upto 2050, with an average day representing each year of simulation. Several parameters can be modified to specify the scenario, including:</p>
+<ul>
+  <li>Economic <u>(GDP)</u> growth rate which affects demand change</li>
+  <li><u>Fuel price</u> evolution which affects the airlines’ DOC</li>
+  <li>Aircraft <u>entry-in-service</u> dates for new technology availability</li>
+</ul>
 
-<p>We developed a random utility based discrete choice analysis method to model the evolution of complex endogenous networks as a result of the decision-making of its constituent autonomous nodes. The goal was to study how the decisions and interactions of these nodes affects network structure and ultimately its performance. We demonstrated the application of the framework to airlines’ decision-making on route-selection problems and passengers’ selection of an itinerary from among available options.</p>
+<p>Standard results from FLEET include evolution of emissions of CO<sub>2</sub>, NO<sub>x</sub>, and noise, and growth in fleet sizes and their yearly allocation.</p>
 
-<h3 id="assessing-environmental-impact-of-aviation"><a href="/research/fleet-project.html">Assessing Environmental Impact of Aviation</a></h3>
+<p>Following figures show examples of results obtained from simulations. These figures show how the normalized demand and CO<sub>2</sub> values change for three different scenarios simulated in FLEET. Scenario one, “Ongoing fleet renewal,” is the case where no new technology aircraft are introduced and the retired aircraft are replaced by newer aircraft with the same technology level. Scenario two, “Advanced tube-and-wing,” is the case of new technology aircraft being introduced, but ones which are still of the conventional tube-and-wing configuration. Finally, scenario three, “Low carbon fuels,” is the case where biofuels are introduced. For details on the modeling and numerical results, refer <a href="/publications.html">Moolchandani et al., 2016</a>.</p>
 
-<p>We developed a Matlab based tool for measuring system-wide environmental impact of aviation. The tool uses a mixed integer programming approach to model airlines’ fleet allocation decisions under various technological, economic, and policy scenarios. The tool’s system dynamics-inspired framework includes modules for aviation market demand growth, airline decisions on aircraft retirement and acquisition, and simulation of airline competition.</p>
+<figure style="text-align: center" class="border">
+    <img src="/assets/images/demand.png" class="img-fluid" alt="Responsive image" style="width: 35%; float: float-start" />
+    <img src="/assets/images/co2.png" class="img-fluid" alt="Responsive image" style="width: 35%" />
+    <figcaption>Normalized demand (left) and CO<sub>2</sub> (right) evolution</figcaption>
+</figure>
+
+<p>In summary, in this project we simulated the fleet allocation decisions of airlines in the US to study the environmental impact of aviation in form of CO<sub>2</sub> emissions and noise for different scenarios of market demand growth and policy implementation.</p>
 
 
                 </div>

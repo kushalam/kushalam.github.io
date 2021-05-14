@@ -47,10 +47,23 @@
 
           
 
-            <li class="nav-item">
-              <a class="nav-link "  href="/research.html">Research</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Research
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                    <li><a class="dropdown-item" href="/research.html">Research Home</a></li>
+                
+                    <li><a class="dropdown-item" href="/research/fleet-project.html">Aviation and Environment</a></li>
+                
+                    <li><a class="dropdown-item" href="/research/nsf-complex-nets-project.html">Airline Network Structure</a></li>
+                
+                    <li><a class="dropdown-item" href="/research/complex-systems-design-phd.html">Complex Systems Design</a></li>
+                
+              </ul>
             </li>
-          
+
           
 
         
@@ -78,49 +91,101 @@
                     <h2 id="dissertations">Dissertations</h2>
 
 <ol>
-  <li><b>Modeling and analysis of complex systems design processes.</b> PhD Thesis, Purdue University, 2018.</li>
-  <li><b>Impact of environmental constraints and aircraft technology on airline fleet composition.</b> MS Thesis, Purdue University, 2012.</li>
+  <li>
+    <p><u>Modeling and analysis of complex systems design processes.</u> PhD Thesis, Purdue University, 2018.</p>
+  </li>
+  <li>
+    <p><u>Impact of environmental constraints and aircraft technology on airline fleet composition.</u> MS Thesis, Purdue University, 2012.</p>
+  </li>
 </ol>
 
 <h2 id="refereed-journals">Refereed Journals</h2>
 
-<p><em>The following list is incomplete, I am currently updating this page.</em></p>
+<ol class="space_list">
+    <li> 
+        Thekinen, J. D., Moolchandani, K. A., Panchal, J. H., &amp; DeLaurentis, D. A. <u>"Modeling Airlines' Route Selection Decisions Under Competition: A Discrete Games Based Model."</u> Journal of Air Transportation (2019). <a href="https://doi.org/10.2514/1.D0153">https://doi.org/10.2514/1.D0153</a> <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#journal-nsf-comp" aria-expanded="false" aria-controls="collapseExample">See abstract</button> 
+        <!-- <a class="btn btn-outline-primary btn-sm" href="/assets/papers/Thekinen%20et%20al%20-%20Modeling%20Airlines%20Route%20Selection%20Decisions%20Under%20Competition.pdf">Get pdf</a>  -->
+        <div class="collapse" id="journal-nsf-comp">
+            <div class="card card-body border-dark">
+            <b>Abstract:</b> To analyze the effects of policies within the air transportation network, there is a need to model how policies affect the decisions made by airlines. Since airline decision making is based on proprietary information, such models need to rely on openly available data sources. In this paper, we use openly available data from the Bureau of Transportation Statistics to develop a predictive model of airline route selection decisions. The proposed model accounts for airline competition and models parameters such as operating cost, which can be influenced by policymakers. We illustrate the model using a dataset from two major airlines in US domestic Air Transportation Network. The dataset and the cost model are used for Bayesian estimation of model parameters, which are then used to predict the effects of cost and demand on the evolution of the network topology. The proposed model is found to be more accurate than competing models that do not consider the competition. From the estimates obtained on preference parameters, it is found that decreasing the operating cost and increasing the market demand increases the probability of operating service on the route for airlines, and the operating cost has a greater effect than market demand and route distance in the route selection decisions.
+            </div>
+        </div>
+    </li>
+    <li> 
+        Fang, Z., Moolchandani, K., Chao, H., &amp; DeLaurentis, D. A. <u>"A Method for Emission Allowances Allocation in Air Transportation Systems from a System-of-Systems Perspective."</u> Journal of Cleaner Production (2019). <a href="https://doi.org/10.1016/j.jclepro.2019.04.083">https://doi.org/10.1016/j.jclepro.2019.04.083</a> <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#journal-mustdo-abstract" aria-expanded="false" aria-controls="collapseExample">See abstract</button> 
+        <!-- <a href="/assets/papers/Fang et al - Method for Emissions Allowances in ATS.pdf">Get pdf.</a> -->
+        <div class="collapse" id="journal-mustdo-abstract">
+            <div class="card card-body border-dark">
+            <b>Abstract:</b> Market-based mechanisms, especially emission trading schemes, are proposed as a means to control system-wide aviation emissions. Although auctioning has gained some recent popularity, free allocation of emission allowances is still favored by many to incentivize airlines’ participation in the outset of an emission trading program. However, current methods for free allocation e grandfathering method and benchmarking method e have their limitations, such as placing heavy workload on regulators and a lack of transparency and flexibility. To overcome some of the limitations, this paper proposes a multi-stakeholder dynamic optimization method from a system-of-systems perspective. The method dele- gates part of the regulators’ responsibility to airlines, and grants airlines flexibility to plan, negotiate, and request for emission allowances. The inclusion of the regulators’ allowance allocation decision-making and airlines’ fleet allocation decision-making ensures a holistic understanding of the problem. Specif- ically, the method combines transfer contract coordination mechanism and approximate dynamic pro- gramming to coordinate the allowance consumption between the participants. We apply the method to a ten-route air transportation network where two representative airlines compete for the allowances. The results demonstrate that the total network-wise profit from each airline’s independent decisions can approach the globally efficient solution in an ideal centralized case without violating the emission constraint.
+            </div>
+        </div>
+    </li>
+    <li>
+        Sha, Z., Moolchandani, K., Panchal, J. H., &amp; DeLaurentis, D. A. <u>"Modeling Airlines’ Decisions on City-Pair Route Selection Using Discrete Choice Models."</u> Journal of Air Transportation (2016). <a href="https://doi.org/10.2514/1.D0015">https://doi.org/10.2514/1.D0015</a> <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#journal-nsf-abstract" aria-expanded="false" aria-controls="collapseExample">See abstract</button> 
+        <!-- <a href="/assets/papers/Sha et al - Modeling Airlines Decisions 2016.pdf">Get pdf.</a> -->
+        <div class="collapse" id="journal-nsf-abstract">
+            <div class="card card-body border-dark">
+            <b>Abstract:</b> An approach based on the discrete choice random-utility theory is presented to model airlines’ decisions of strategically adding or deleting city-pair routes. The approach consists of methods for identification of air transportation networks, determination of choice sets, and comparison and validation of developed discrete choice models. The developed approach enables the quantification and estimation of airlines’ decision-making preferences to the identified explanatory variables, including market demand, direct operating costs, distance, and whether terminal airports are hubs or not. It is observed that market demand more significantly affects the decisions on route deletion than their addition. Furthermore, the effect of direct operating costs is significant in the decision of route deletion, whereas it is not in route addition. Finally, airlines’ decisions vary, depending on the airport hub status. These trends are observed consistently over time in the current analysis of historical data from 2004 to 2013. The developed models show better prediction as compared to other models in literature. With the developed models, an air transportation network generator is constructed that, in turn, is used for model validation. This approach benefits those who want to understand airlines’ decision-making behaviors and those who need to understand the past and future evolution of an air transportation network.
+            </div>
+        </div>
+    </li>
+    <li>
+        Moolchandani, K., Govindaraju, P., Roy, S., Crossley, W. A. &amp; DeLaurentis, D. A. <u>"Assessing Effects of Aircraft and Fuel Technology Advancement on Select Aviation Environmental Impacts."</u> Journal of Aircraft (2016). <a href="https://doi.org/10.2514/1.C033861">https://doi.org/10.2514/1.C033861</a> <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#journal-fleet-abstract" aria-expanded="false" aria-controls="collapseExample">See abstract</button> 
+        <!-- <a href="/assets/papers/Moolchandani et al - FLEET modeling.pdf">Get pdf.</a>  -->
+        <div class="collapse" id="journal-fleet-abstract">
+            <div class="card card-body border-dark">
+            <b>Abstract:</b> The ability to simultaneously assess airline operations, economics, and emissions would help evaluate the progress toward reduction of aviation’s environmental impact as outlined in the NASA Environmentally Responsible Aviation program. Furthermore, assessment of aircraft utilization by airlines would guide future policies and investment decisions on technologies most urgently required. This paper describes the development of the Fleet-Level Environmental Evaluation Tool, which is a computational simulation tool developed to assess the impact of new aircraft concepts and technologies on aviation’s impact on environmental emissions and noise. This tool uses an aircraft allocation model that represents the airlines’ profit-seeking operational decisions as a mixed-integer programming problem. The allocation model is embedded in a system-dynamics framework that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth. This paper describes the development of Fleet-Level Environmental Evaluation Tool to use a single large airline to represent operations of all airlines in the United States aviation market. The paper also demonstrates Fleet-Level Environmental Evaluation Tool’s capabilities using scenarios on the assessment of effects of new technology aircraft and biofuels on aviation’s emissions.
+            </div>
+        </div>
+    </li>
+</ol>
+
+<h2 id="conference-proceedings">Conference Proceedings</h2>
 
 <ol>
-  <li>Thekinen, J. D., Moolchandani, K. A., Panchal, J. H., &amp; DeLaurentis, D. A. <u><b>"Modeling Airlines' Route Selection Decisions Under Competition: A Discrete Games Based Model."</b></u> Journal of Air Transportation (2019). <a class="btn btn-outline-primary btn-sm" href="https://doi.org/10.1016/j.jclepro.2019.04.083" role="button">See publication</a> <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#journal-nsf-comp" aria-expanded="false" aria-controls="collapseExample">See abstract</button> <a class="btn btn-outline-primary btn-sm" href="/assets/papers/Thekinen%20et%20al%20-%20Modeling%20Airlines%20Route%20Selection%20Decisions%20Under%20Competition.pdf">Get pdf.</a></li>
+  <li>
+    <p>Moolchandani, K. A., Guillermo, L., Lee, H., and Arneson, H., <u>Simulation Study for Interoperability of Urban Air Mobility Scheduling and Separation Services in Ideal Conditions.</u> Accepted for publication in 2021 AIAA Aviation Conference.</p>
+  </li>
+  <li>
+    <p>Verma, S., Monheim, S., Moolchandani, K. A., Pradeep, P., Cheng, A., Thipphavong, D., Dulchinos, V., Arneson, H., and Lauderdale, T. <u>Lessons Learned: Using UTM Paradigm for Urban Air Mobility.</u> 39th Digital Avionics Systems Conference (DASC), Virtual Event, 11-16 Oct. 2020.</p>
+  </li>
+  <li>
+    <p>Davendralingam, N., Raz, A. K., Tamaskar, S., Guariniello, C., Moolchandani, K., and DeLaurentis, D. (2018). <u>A DAbI Process for System-of-Systems Engineering Antecedents, Status Quo and Path Forward</u> CESUN 2018, June 20-22, Tokyo, Japan.</p>
+  </li>
+  <li>
+    <p>Ogunsina, K., Chao, H., Kolencherry, N., Jain, S., Moolchandani, K., DeLaurentis, D., and Crossley, W. (2018). <u>Fleet-Level Environmental Assessments for Feasibility of Aviation Emission Reduction Goals.</u> CESUN 2018, June 20-22, Tokyo, Japan.</p>
+  </li>
+  <li>
+    <p>Thekinen, J. D., Moolchandani, K., Panchal, J. H., &amp; DeLaurentis, D. A. (2017). <u>Modeling Effects of Competition on Airlines’ Route-Selection Decisions.</u> In 17th AIAA Aviation Technology, Integration, and Operations Conference (p. 3598). <a href="https://doi.org/10.2514/6.2017-3598">https://doi.org/10.2514/6.2017-3598</a></p>
+  </li>
+  <li>
+    <p>Chao, H., Kolencherry, N., Ogunsina, K., Moolchandani, K., Crossley, W. A., &amp; DeLaurentis, D. A. (2017). <u>A Model of Aircraft Retirement and Acquisition Decisions Based On Net Present Value Calculations.</u> In 17th AIAA Aviation Technology, Integration, and Operations Conference (p. 3600). <a href="https://doi.org/10.2514/6.2017-3600">https://doi.org/10.2514/6.2017-3600</a></p>
+  </li>
+  <li>
+    <p>Moolchandani, K., Sha, Z., Maheshwari, A., Thekinen, J., Davendralingam, N., Panchal, J. H., &amp; DeLaurentis, D. A. (2016). <u>Towards A Hierarchical Decision-Centric Modeling Framework for Air Transportation Systems.</u> In 16th AIAA Aviation Technology, Integration, and Operations Conference, AIAA Aviation. American Institute of Aeronautics and Astronautics (Vol. 6). <a href="https://doi.org/10.2514/6.2016-3154">https://doi.org/10.2514/6.2016-3154</a></p>
+  </li>
+  <li>
+    <p>Chao, H., Ogunsina, K., Moolchandani, K. A., DeLaurentis, D. A., &amp; Crossley, W. A. (2016). <u>Airline Competition in Duopoly Market and its Impact on Environmental Emissions: A Game Theory Approach.</u> In 16th AIAA Aviation Technology, Integration, and Operations Conference (p. 3759). <a href="https://doi.org/10.2514/6.2016-3759">https://doi.org/10.2514/6.2016-3759</a></p>
+  </li>
+  <li>
+    <p>Davendralingam, N., Sha, Z., Moolchandani, K., Maheshwari, A., Panchal, J. H., &amp; DeLaurentis, D. A. (2015, August). <u>Scientific Foundations for Systems Engineering: Challenges and Strategies.</u> In ASME 2015 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (pp. V01BT02A043-V01BT02A043). American Society of Mechanical Engineers.</p>
+  </li>
+  <li>
+    <p>Sha, Z., Moolchandani, K., Maheshwari, A., Thekinen, J., Panchal, J. H., &amp; DeLaurentis, D. A. (2015). <u>Modeling airline decisions on route planning using discrete choice models.</u> In 15th AIAA Aviation Technology, Integration, and Operations Conference (p. 2438). <a href="https://doi.org/10.2514/6.2015-2438">https://doi.org/10.2514/6.2015-2438</a></p>
+  </li>
+  <li>
+    <p>Moolchandani, K. A., Agusdinata, D. B., DeLaurentis, D. A., &amp; Crossley, W. A. (2013, January). <u>Assessment of the Effect of Aircraft Technological Advancement on Aviation Environmental Impacts.</u> In 51st AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition, No. AIAA (Vol. 652). <a href="https://doi.org/10.2514/6.2013-652">https://doi.org/10.2514/6.2013-652</a></p>
+  </li>
+  <li>
+    <p>Moolchandani, K. A., Agusdinata, D. B., DeLaurentis, D. A., &amp; Crossley, W. A. (2012, September). <u>Developing Optimal Airline Fleets Under Environmental and Capacity Constraints.</u> In 28th International Congress of the Aeronautical Sciences (ICAS) (pp. 2012-7).</p>
+  </li>
+  <li>
+    <p>Moolchandani, K. A., Agusdinata, D. B., DeLaurentis, D. A., &amp; Crossley, W. A. (2012, September). <u>Airline Competition in Duopoly Market and Its Impact on Environmental Emissions.</u> In 12th AIAA Aviation Technology, Integration, and Operations Conference (ATIO). <a href="https://doi.org/10.2514/6.2012-5466">https://doi.org/10.2514/6.2012-5466</a></p>
+  </li>
+  <li>
+    <p>Moolchandani, K. A., Agusdinata, D. B., Mane, M., Crossley, W. A., &amp; DeLaurentis, D. A. (2011). <u>Impact of development rates of future aircraft technologies on fleet-wide environmental emissions.</u> In 11th AIAA Aviation Technology, Integration, and Operations (ATIO) Conference, including the AIAA Balloon Systems Conference and 19th AIAA Lighter-Than-Air Technology Conference 2011. <a href="https://doi.org/10.2514/6.2011-6843">https://doi.org/10.2514/6.2011-6843</a></p>
+  </li>
 </ol>
-<div class="collapse" id="journal-nsf-comp">
-    <div class="card card-body border-dark">
-    <b>Abstract:</b> To analyze the effects of policies within the air transportation network, there is a need to model how policies affect the decisions made by airlines. Since airline decision making is based on proprietary information, such models need to rely on openly available data sources. In this paper, we use openly available data from the Bureau of Transportation Statistics to develop a predictive model of airline route selection decisions. The proposed model accounts for airline competition and models parameters such as operating cost, which can be influenced by policymakers. We illustrate the model using a dataset from two major airlines in US domestic Air Transportation Network. The dataset and the cost model are used for Bayesian estimation of model parameters, which are then used to predict the effects of cost and demand on the evolution of the network topology. The proposed model is found to be more accurate than competing models that do not consider the competition. From the estimates obtained on preference parameters, it is found that decreasing the operating cost and increasing the market demand increases the probability of operating service on the route for airlines, and the operating cost has a greater effect than market demand and route distance in the route selection decisions.
-    </div>
-</div>
-
-<ol>
-  <li>Fang, Z., Moolchandani, K., Chao, H., &amp; DeLaurentis, D. A. <u><b>"A Method for Emission Allowances Allocation in Air Transportation Systems from a System-of-Systems Perspective."</b></u> Journal of Cleaner Production (2019). <a href="https://doi.org/10.1016/j.jclepro.2019.04.083">https://doi.org/10.1016/j.jclepro.2019.04.083.</a> <a data-toggle="collapse" href="#journal-mustdo-abstract" aria-expanded="false" aria-controls="journal-mustdo-abstract">See abstract.</a> <a href="/assets/papers/Fang et al - Method for Emissions Allowances in ATS.pdf">Get pdf.</a></li>
-</ol>
-<div class="collapse" id="journal-mustdo-abstract">
-    <div class="card card-body border-dark">
-    <b>Abstract:</b> Market-based mechanisms, especially emission trading schemes, are proposed as a means to control system-wide aviation emissions. Although auctioning has gained some recent popularity, free allocation of emission allowances is still favored by many to incentivize airlines’ participation in the outset of an emission trading program. However, current methods for free allocation e grandfathering method and benchmarking method e have their limitations, such as placing heavy workload on regulators and a lack of transparency and flexibility. To overcome some of the limitations, this paper proposes a multi-stakeholder dynamic optimization method from a system-of-systems perspective. The method dele- gates part of the regulators’ responsibility to airlines, and grants airlines flexibility to plan, negotiate, and request for emission allowances. The inclusion of the regulators’ allowance allocation decision-making and airlines’ fleet allocation decision-making ensures a holistic understanding of the problem. Specif- ically, the method combines transfer contract coordination mechanism and approximate dynamic pro- gramming to coordinate the allowance consumption between the participants. We apply the method to a ten-route air transportation network where two representative airlines compete for the allowances. The results demonstrate that the total network-wise profit from each airline’s independent decisions can approach the globally efficient solution in an ideal centralized case without violating the emission constraint.
-    </div>
-</div>
-
-<ol>
-  <li>Sha, Z., Moolchandani, K., Panchal, J. H., &amp; DeLaurentis, D. A. <u><b>"Modeling Airlines’ Decisions on City-Pair Route Selection Using Discrete Choice Models."</b></u> Journal of Air Transportation (2016). <a href="https://doi.org/10.2514/1.D0015">https://doi.org/10.2514/1.D0015.</a> <a data-toggle="collapse" href="#journal-nsf-abstract" aria-expanded="false" aria-controls="journal-nsf-abstract">See abstract.</a> <a href="/assets/papers/Sha et al - Modeling Airlines Decisions 2016.pdf">Get pdf.</a></li>
-</ol>
-<div class="collapse" id="journal-nsf-abstract">
-    <div class="card card-body border-dark">
-    <b>Abstract:</b> An approach based on the discrete choice random-utility theory is presented to model airlines’ decisions of strategically adding or deleting city-pair routes. The approach consists of methods for identification of air transportation networks, determination of choice sets, and comparison and validation of developed discrete choice models. The developed approach enables the quantification and estimation of airlines’ decision-making preferences to the identified explanatory variables, including market demand, direct operating costs, distance, and whether terminal airports are hubs or not. It is observed that market demand more significantly affects the decisions on route deletion than their addition. Furthermore, the effect of direct operating costs is significant in the decision of route deletion, whereas it is not in route addition. Finally, airlines’ decisions vary, depending on the airport hub status. These trends are observed consistently over time in the current analysis of historical data from 2004 to 2013. The developed models show better prediction as compared to other models in literature. With the developed models, an air transportation network generator is constructed that, in turn, is used for model validation. This approach benefits those who want to understand airlines’ decision-making behaviors and those who need to understand the past and future evolution of an air transportation network.
-    </div>
-</div>
-
-<ol>
-  <li>Moolchandani, Kushal, Parithi Govindaraju, Satadru Roy, William A. Crossley, and Daniel A. DeLaurentis. <u><b>"Assessing Effects of Aircraft and Fuel Technology Advancement on Select Aviation Environmental Impacts."</b></u> Journal of Aircraft (2016). <a href="https://doi.org/10.2514/1.C033861">https://doi.org/10.2514/1.C033861.</a> <a data-toggle="collapse" href="#journal-fleet-abstract" aria-expanded="false" aria-controls="journal-fleet-abstract">See abstract.</a> <a href="/assets/papers/Moolchandani et al - FLEET modeling.pdf">Get pdf.</a></li>
-</ol>
-<div class="collapse" id="journal-fleet-abstract">
-    <div class="card card-body border-dark">
-    <b>Abstract:</b> The ability to simultaneously assess airline operations, economics, and emissions would help evaluate the progress toward reduction of aviation’s environmental impact as outlined in the NASA Environmentally Responsible Aviation program. Furthermore, assessment of aircraft utilization by airlines would guide future policies and investment decisions on technologies most urgently required. This paper describes the development of the Fleet-Level Environmental Evaluation Tool, which is a computational simulation tool developed to assess the impact of new aircraft concepts and technologies on aviation’s impact on environmental emissions and noise. This tool uses an aircraft allocation model that represents the airlines’ profit-seeking operational decisions as a mixed-integer programming problem. The allocation model is embedded in a system-dynamics framework that mimics the economics of airline operations, models their decisions regarding retirement and acquisition of aircraft, and estimates market demand growth. This paper describes the development of Fleet-Level Environmental Evaluation Tool to use a single large airline to represent operations of all airlines in the United States aviation market. The paper also demonstrates Fleet-Level Environmental Evaluation Tool’s capabilities using scenarios on the assessment of effects of new technology aircraft and biofuels on aviation’s emissions.
-    </div>
-</div>
 
 
                 </div>
