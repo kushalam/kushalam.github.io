@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Modeling and Analysis of Complex Systems Design Processes</title>
+    <title>Research</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -134,7 +134,7 @@
           
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/research/complex-systems-design-phd.html">Complex Systems Design</a>
+              <a class="nav-link "  href="/research/complex-systems-design-phd.html">Complex Systems Design</a>
             </li>
 
           
@@ -173,25 +173,24 @@
                 <main class="ms-sm-auto col-md-10 col-lg-10 px-md-4">
                     <div class="row justify-content-center">
                         <div class="col-md-7" style="margin: 1em">
-                            <h3 id="why-study-complex-systems-design-processes">Why study complex systems’ design processes?</h3>
+                            <h1 id="engineering-notes">Engineering Notes</h1>
 
-<p>Complex systems’ design involves interactions among a network of self-interested agents who iteratively exchange design information such as variable values while working on their local subsystem problems. There is a large body of literature on modeling design processes, and yet there exists a need to further study the social, cultural, and political aspects of design. These aspects are relevant because the design process of a system is nested within an organization, and the structure of and information flow within an organization influences the architecture of the system it develops; the following figure shows the layer of the product (system) within a layer of its design process within the layer of the organization.</p>
+<p>Notes on topics of systems engineering, systems of systems engineering, modeling and simulation, and design and optimization.</p>
 
-<p><img src="/assets/images/product-process-organization-nesting.png" alt="Product-Process-Organization form a nested set. The architectures of the product, process, and organization include, respectively, the network of subsystems, the network of tasks, and the network of design teams." class="img-fluid img-thumbnail mx-auto d-block" width="40%" style="margin: 2em" /></p>
+<h3 id="systems-of-systems"><a href="/engineering/sos.html">Systems of Systems</a></h3>
+<p>Systems of Systems (SoS) are a class of large-scale complex systems that are themselves
+collections of independent systems.</p>
 
-<h3 id="how-do-we-model-design-processes">How do we model design processes?</h3>
+<h3 id="digital-engineering"><a href="/engineering/digital-engg.html">Digital Engineering</a></h3>
+<p>Digital Engineering (DE) is a new paradigm in which physical artifacts and virtual
+artifacts of engineering process are tied together to achieve improved decision
+making while managing risk.</p>
 
-<p>In this research, I modeled the process as a network of self-interested agents who identify a design process policy to maximize their own value obtained by designing their subsystem. These agents are structured in an bi-level hierarchical organization with one system-level designer, the principal, and multiple subsystem teams or agents. Thus, the research question was, <em>“How can an organization comprised of autonomous self-interested design teams select a design process policy which provides the highest system-level value?”</em></p>
-
-<p>The system-level designer and the subsystem design teams, are modeled to interact with other agents with whom they share design variables. The process is as follows. The subsystem teams first solve their local design problems, and then exchange the results of these problems with other teams. In each interaction, the receiving teams make decisions to update their local variable values with the one newly available or to continue to use their own value. They make these decisions on the basis of which decision leads to the highest utility measured by a predefined value function. Thus, each team acts in its self-interest and maximizes its local value. In case they do not arrive at a common design, the system-level designer attempts to assign rewards which incentivize the teams to update designs such that they are compatible with the other teams. In such cases, the teams would be willing to forgo a portion of their utility obtained from the design outcome if they are compensated for this loss by the system-level designer. Therefore, the task of a system-level designer is to solve a compatibility problem which trades off between different subsystems outcomes and arrives as the final design while maximizing the organization’s value. The framework models design teams as agents who adapt their behavior using information on design variables //available from other teams and the incentives in form of rewards from a system-level designer.</p>
-
-<p>Each team is modeled as an autonomous decision-making agent. Then, the simulation proceeds as shown in the figure below. All agents begin with an initial design, and then, through a series of successive interactions, arrive at a final design selected by the principal. This framework is flexible to allow changes to the agents’ behaviors or design requirements during the course of simulation.</p>
-
-<p><img src="/assets/images/design-framework-flowchart.png" alt="Product-Process-Organization form a nested set." class="img-fluid img-thumbnail mx-auto d-block" width="50%" style="margin: 2em" /></p>
-
-<h3 id="how-does-the-framework-help-develop-a-design-policy">How does the framework help develop a design policy?</h3>
-
-<p>I demonstrated the framework using, first, a series of increasingly complex design cases using a synthetic optimization problem, and then, an aircraft design problem. From the results obtained, I discussed how an organization can select both its processes and its communication structure to maximize the value of each of its autonomous design teams. Thus, this work takes a bottom-up approach for modeling a complex, dynamic, and uncertain design environment, where organizational-level outcomes are a result of decisions of individual teams who respond to local incentives.</p>
+<h3 id="model-based-systems-engineering-mbse"><a href="/engineering/mbse.html">Model-based Systems Engineering (MBSE)</a></h3>
+<p>Model-based Systems Engineering (MBSE) is the art and science of applying software-based 
+tools to capture systems engineering evidence in a systematic, disciplined way to connect 
+system relationships, control system configuration, and communicate a common system sight 
+picture in the form of an integrated model to all stakeholders throughout the lifecycle.</p>
 
                         </div>
                     </div>
